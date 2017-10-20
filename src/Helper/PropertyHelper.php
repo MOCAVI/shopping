@@ -64,8 +64,9 @@ class PropertyHelper
      * @param $variation
      * @return string
      */
+     /*
     public function getCheckoutApproved($variation):string
-/* ADK    {
+    {
         $checkoutApproved = 'false';
 
         $propertyIsSet = $this->getProperty($variation, self::PROPERTY_IDEALO_CHECKOUT_APPROVED) === true;

@@ -455,8 +455,8 @@ class IdealoDE extends CSVPluginGenerator
                 $imageDataList = $this->elasticExportCoreHelper->getImageListInOrder($variation, $settings, 1, ElasticExportCoreHelper::VARIATION_IMAGES, 'normal', true);
 
                 // get the checkout approved property
-                $checkoutApproved = $this->propertyHelper->getCheckoutApproved($variation);
-
+              //  $checkoutApproved = $this->propertyHelper->getCheckoutApproved($variation);
+							  $checkoutApproved = true;  //ADK
                 $data = [
                     'article_id' 		=> '',
                     'deeplink' 			=> $this->elasticExportCoreHelper->getMutatedUrl($variation, $settings, true, false),
