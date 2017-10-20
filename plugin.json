@@ -1,0 +1,27 @@
+{
+  "name": "ElasticExportShopping24",
+  "description": "This plugin adds the format Shopping24 to the Elastic Export.",
+  "namespace": "ElasticExportShopping24",
+  "author": "MOCAVI DESiGN SOFTWARE",
+  "type": "export",
+  "authorIcon": "icon_author_xs.png",
+  "serviceProvider": "ElasticExportShopping24\\ElasticExportShopping24ServiceProvider",
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007",
+  "pluginIcon": "icon_plugin_md.png",
+  "price": 0.00,
+  "shortDescription": {
+    "de": "MOCAVI - Das Plugin ElasticExportShopping24 fügt das Datenformat Shopping24 zum Elastischen Export hinzu.",
+    "en": "MOCAVI - This plugin adds the format Shopping24 to the Elastic Export."
+  },
+  "categories": [
+    "3523"
+  ],
+  "version": "0.0.1",
+   "marketplaceName": {
+    "de":"schopping24.de - MOCAVI DESiGN SOFTWARE" ,
+    "en":"schopping24.de - MOCAVI DESiGN SOFTWARE"
+  },
+  "require": ["ElasticExport"]
+
+
+}
